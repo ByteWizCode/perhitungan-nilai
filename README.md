@@ -1,66 +1,46 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
 
 <p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
+<a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
-## About Laravel
+# Information :
+Ketentuan penilaian grade:
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+•	Nilai <= 65 = D
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+•	Nilai <= 75 = C
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+•	Nilai <= 85 = B
 
-## Learning Laravel
+•	Nilai <=100 = A
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+# Admin Dashboard page
+![admindashboardpage](https://github.com/ByteWizCode/perhitungan-nilai/assets/136901319/d90e34eb-d28f-409d-9fa3-48b1dea821d6)
 
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
+# Edit page
+![editpage](https://github.com/ByteWizCode/perhitungan-nilai/assets/136901319/5f6928ed-e98b-4fec-8883-693a0d467ab5)
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 2000 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+# ScreenShots page
+![outputpage](https://github.com/ByteWizCode/perhitungan-nilai/assets/136901319/d02aabe7-4ee8-427e-aed8-ded15077759d)
+![pagen1](https://github.com/ByteWizCode/perhitungan-nilai/assets/136901319/21446a77-8a7e-4c26-9623-5a4f3d7eefbd)
+![pagen2](https://github.com/ByteWizCode/perhitungan-nilai/assets/136901319/351751e6-d9bc-4163-ada9-87179359d0f5)
+![pagen3](https://github.com/ByteWizCode/perhitungan-nilai/assets/136901319/21a28ed5-31a1-410b-96b5-c5e93cdca132)
+![graph4](https://github.com/ByteWizCode/perhitungan-nilai/assets/136901319/efe611f5-474a-4c57-afda-ebb2d87ea99b)
+![graph1](https://github.com/ByteWizCode/perhitungan-nilai/assets/136901319/e5e7e232-7f1e-48be-b97b-86d4e05de757)
+![graph2](https://github.com/ByteWizCode/perhitungan-nilai/assets/136901319/dd355c5c-e8e7-44a0-b6d1-ed01861b6fd1)
+![graph3](https://github.com/ByteWizCode/perhitungan-nilai/assets/136901319/e01c61e8-9800-4d5b-b50e-5c0f3b1a666e)
 
-## Laravel Sponsors
+## How to run the code
+- git clone https://github.com/ByteWizCode/perhitungan-nilai.git
+- cd perhitungan-nilai
+- cp .env.example `.env`
+- open .env and update DB_DATABASE (database details)
+- run : `composer install`
+- run : `php artisan key:generate`
+- run : `php artisan migrate:fresh --seed`
+- run : `php artisan serve`
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
-
-### Premium Partners
-
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Cubet Techno Labs](https://cubettech.com)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[Many](https://www.many.co.uk)**
-- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
-- **[DevSquad](https://devsquad.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[OP.GG](https://op.gg)**
-- **[WebReinvent](https://webreinvent.com/?utm_source=laravel&utm_medium=github&utm_campaign=patreon-sponsors)**
-- **[Lendio](https://lendio.com)**
-
-## Contributing
-
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
-
-## Code of Conduct
-
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
-
-## Security Vulnerabilities
-
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
-
-## License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
