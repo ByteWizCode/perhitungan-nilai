@@ -18,13 +18,13 @@ Ketentuan penilaian grade:
 
 •	Nilai <=100 = A
 
-# Admin Dashboard page
+# Admin Dashboard Page
 ![admindashboardpage](https://github.com/ByteWizCode/perhitungan-nilai/assets/136901319/d90e34eb-d28f-409d-9fa3-48b1dea821d6)
 
-# Edit page
+# Edit Page
 ![editpage](https://github.com/ByteWizCode/perhitungan-nilai/assets/136901319/5f6928ed-e98b-4fec-8883-693a0d467ab5)
 
-# ScreenShots page
+# ScreenShots Page
 ![outputpage](https://github.com/ByteWizCode/perhitungan-nilai/assets/136901319/d02aabe7-4ee8-427e-aed8-ded15077759d)
 ![pagen1](https://github.com/ByteWizCode/perhitungan-nilai/assets/136901319/21446a77-8a7e-4c26-9623-5a4f3d7eefbd)
 ![pagen2](https://github.com/ByteWizCode/perhitungan-nilai/assets/136901319/351751e6-d9bc-4163-ada9-87179359d0f5)
